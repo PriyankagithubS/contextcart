@@ -1,0 +1,26 @@
+/* src/Components/CartItems.css */
+.cart-container {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for better visual */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
