@@ -22,7 +22,7 @@ const CartItems = () => {
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>
                     <img src={item.images} alt="Image is not loaded" className="img-fluid mb-3" />
-                    <p>Price:actualAmount</p>
+                    
                     <p>Price: ${item.price}</p>
                     <p>Discount: {item.discountPercentage}%</p>
                     <p>Quantity: {item.quantity}</p>
